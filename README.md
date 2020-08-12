@@ -21,6 +21,7 @@ The model achieved vlidation accuracy of ~86% and validation_loss of 0.35 .
 
 ```2. Along with Conv1D Layer```
 (Considering stop words) The model achieved vlidation accuracy of ~83.7% and validation_loss of 0.67 .
+
 ```3. Along with Bidirectional Layer```
 (considering stop words) The model achieved vlidation accuracy of ~85% and validation_loss of 0.54 .
 
