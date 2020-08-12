@@ -8,21 +8,27 @@ To overcome the limitations related to noise in Twitter datasets, this News Head
 ##### Content:
 Each record consists of three attributes:
 1. is_sarcastic: 1 if the record is sarcastic otherwise 0
-
 2. headline: the headline of the news article
-
 3. article_link: link to the original news article. Useful in collecting supplementary data
 ### Models and Results:
 ```1. Simple Embedding Layer```
 1. Without considering stop words.
 The model achieved vlidation accuracy of ~82.2% and validation_loss of 0.43 .
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/accuracy%201.1.png)
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/loss%201.1.png)
 
 2. With considering stop words.
 The model achieved vlidation accuracy of ~86% and validation_loss of 0.35 .
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/accuracy1.2.png)
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/loss1.2.png)
 
 ```2. Along with Conv1D Layer```
 (Considering stop words) The model achieved vlidation accuracy of ~83.7% and validation_loss of 0.67 .
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/accuracy%202.png)
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/loss%202.png)
 
 ```3. Along with Bidirectional Layer```
 (Considering stop words) The model achieved vlidation accuracy of ~85% and validation_loss of 0.54 .
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/accuracy%203.png)
+![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/loss%203.png)
 
