@@ -2,7 +2,7 @@
 ### Context
 Past studies in Sarcasm Detection mostly make use of Twitter datasets collected using hashtag based supervision but such datasets are noisy in terms of labels and language. Furthermore, many tweets are replies to other tweets and detecting sarcasm in these requires the availability of contextual tweets.
 ### Dataset 
-```!wget --no-check-certificate \https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sarcasm.json \-O /tmp/sarcasm.json```
+```!wget --no-check-certificate \https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sarcasm.json \-O /tmp/sarcasm.json ```
 ###### Details:
 To overcome the limitations related to noise in Twitter datasets, this News Headlines dataset for Sarcasm Detection is collected from two news website. TheOnion aims at producing sarcastic versions of current events and we collected all the headlines from News in Brief and News in Photos categories (which are sarcastic). We collect real (and non-sarcastic) news headlines from HuffPost.
 ###### Content:
