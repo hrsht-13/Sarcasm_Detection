@@ -13,7 +13,7 @@ Each record consists of three attributes:
 
 3. article_link: link to the original news article. Useful in collecting supplementary data
 ### Models and Results:
-```1. Simple Embedding Layer-```
+```1. Simple Embedding Layer```
 1. Without considering stop words.
 The model achieved vlidation accuracy of ~82.2% and validation_loss of 0.43 .
 
