@@ -24,6 +24,7 @@ The model achieved vlidation accuracy of ~86% and validation_loss of 0.35 .
 
 ```2. Along with Conv1D Layer```
 (Considering stop words) The model achieved vlidation accuracy of ~83.7% and validation_loss of 0.67 .
+
 ![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/accuracy%202.png)
 ![alt text](https://github.com/hrsht-13/Sarcasm_Detection/blob/master/img_result/loss%202.png)
 
